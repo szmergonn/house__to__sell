@@ -174,11 +174,6 @@ body {
   transition: all 0.875s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.property-table.scroll-animate {
-  transform: translateY(50px);
-  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
 .overview__header {
   padding: clamp(25px, 7.8125vw, 200px) 0;
 }
@@ -448,7 +443,7 @@ body {
   .overview__header .container {
     display: block;
   }
-  
+
   .lead__text {
     margin-bottom: 2.188rem;
   }
@@ -463,6 +458,7 @@ body {
   .overview__image img {
     order: 1;
     max-width: 100%;
+    flex-basis: auto;
   }
 
   .overview__image .image__caption {
