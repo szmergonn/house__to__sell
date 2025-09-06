@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const heroLink = document.querySelector(".hero__link");
   const heroImageContainer = document.querySelector(".hero-image");
   const heroImage = document.querySelector(".hero-image img");
-  const originalImageSrc = "/img/hero.jpg";
+  const originalImageSrc = "./img/hero.jpg";
   const hoverImageSrc = "./img/hero-switch.png";
 
   const hoverImage = new Image();
