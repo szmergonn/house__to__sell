@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
       heroImage.src = hoverImageSrc;
       heroImageContainer.classList.remove("fade-out");
-    }, 300);
+    }, 375);
   });
 
   heroLink.addEventListener("mouseleave", function () {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(() => {
       heroImage.src = originalImageSrc;
       heroImageContainer.classList.remove("fade-out");
-    }, 300);
+    }, 375);
   });
 
   heroLink.addEventListener("click", function (e) {
@@ -52,6 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.querySelectorAll(".gallery-item.scroll-animate").forEach((item, index) => {
-    item.style.transitionDelay = `${index * 0.1}s`;
+    item.style.transitionDelay = `${index * 0.125}s`;
   });
 });

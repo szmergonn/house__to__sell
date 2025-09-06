@@ -31,7 +31,7 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  transition: opacity 0.6s ease-in-out;
+  transition: opacity 0.75s ease-in-out;
 }
 
 .hero-image.fade-out img {
@@ -43,7 +43,7 @@ body {
   color: #f1ede8;
   z-index: 2;
   padding: 152px 20px 0 20px;
-  animation: fadeInUp 0.8s ease-out;
+  animation: fadeInUp 1.0s ease-out;
 }
 
 .hero__year {
@@ -87,7 +87,7 @@ body {
   display: flex;
   gap: 10vw;
   padding: 0 1.25rem;
-  animation: fadeInUpCentered 0.8s ease-out;
+  animation: fadeInUpCentered 1.0s ease-out;
 }
 
 .stat__info {
@@ -137,7 +137,7 @@ body {
 .scroll-animate {
   opacity: 0;
   transform: translateY(60px);
-  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .scroll-animate.animate-in {
@@ -146,37 +146,37 @@ body {
 }
 
 .scroll-animate:nth-child(2) {
-  transition-delay: 0.1s;
+  transition-delay: 0.125s;
 }
 .scroll-animate:nth-child(3) {
-  transition-delay: 0.2s;
+  transition-delay: 0.25s;
 }
 .scroll-animate:nth-child(4) {
-  transition-delay: 0.3s;
+  transition-delay: 0.375s;
 }
 .scroll-animate:nth-child(5) {
-  transition-delay: 0.4s;
+  transition-delay: 0.5s;
 }
 
 .gallery-item.scroll-animate {
   transform: translateY(80px);
-  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 1.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .overview__image.scroll-animate {
   transform: translateY(40px);
-  transition: all 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 1.125s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .overview__lead.scroll-animate,
 .overview__highlights.scroll-animate {
   transform: translateY(30px);
-  transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 0.875s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .property-table.scroll-animate {
   transform: translateY(50px);
-  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 1.0s cubic-bezier(0.25, 0.46, 0.45, 0.94);;
 }
 
 .overview__header {
@@ -522,16 +522,16 @@ body {
   }
 
   .gallery-item.scroll-animate:nth-child(2) {
-    transition-delay: 0.05s;
+    transition-delay: 0.0625s;
   }
   .gallery-item.scroll-animate:nth-child(3) {
-    transition-delay: 0.1s;
+    transition-delay: 0.125s;
   }
   .gallery-item.scroll-animate:nth-child(4) {
-    transition-delay: 0.15s;
+    transition-delay: 0.1875s;
   }
   .gallery-item.scroll-animate:nth-child(5) {
-    transition-delay: 0.2s;
+    transition-delay: 0.25s;
   }
 
   .gallery-interior-fix {
